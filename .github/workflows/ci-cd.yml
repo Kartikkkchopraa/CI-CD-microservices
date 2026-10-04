@@ -4,8 +4,6 @@ on:
     push:
       branches:
         - main
-      paths:
-        - app1-hello/node
     workflow_dispatch:
 
 permissions:
