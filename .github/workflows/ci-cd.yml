@@ -94,7 +94,7 @@ jobs:
         - name: Deploy to aws
           run: |
             kubectl apply -f node/service-a/app.yaml
-            kubectl apply -f node/servie-b/app.yaml
+            kubectl apply -f node/service-b/app.yaml
 
         
         
